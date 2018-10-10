@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edittext_folder_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/dialog_edittext_bg"
+        android:hint="@string/newfolderhinttxt"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:singleLine="true"
+        android:textColorHint="#909090"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="20px" />
+</LinearLayout>

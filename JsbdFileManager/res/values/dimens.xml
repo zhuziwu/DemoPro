@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="size_font_detail">15sp</dimen>
+    <dimen name="size_font_them">20sp</dimen>
+    
+    
+ <!--    众泰b11a-c -->
+  <dimen name="size_path_text">-7dp</dimen>  
+          
+    <!-- 大众凌度 b11b-->
+<!--       <dimen name="size_path_text">0dp</dimen>  -->
+<!-- n  <dimen name="size_top_height_weight">1.2</dimen>  -->
+</resources>

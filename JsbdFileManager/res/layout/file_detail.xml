@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:scrollbars="none"
+    android:overScrollMode="never">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/dialog_filename"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+
+        <TextView
+            android:id="@+id/txt_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="飘扬过海来看你"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/dialog_filepath"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+
+        <TextView
+            android:id="@+id/txt_file_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/sdcard/audios"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/dialog_filesize"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+
+        <TextView
+            android:id="@+id/txt_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5MB"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/dialog_filetime"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+
+        <TextView
+            android:id="@+id/txt_file_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015-05-05"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" 
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/dialog_fileisread"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+
+        <TextView
+            android:id="@+id/txt_file_isread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/dialog_fileiswrite"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+
+        <TextView
+            android:id="@+id/txt_file_iswrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/size_font_detail" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="todaybg">#1CA1B7</color>
+    <color name="schedulebg">#1CA1B7</color>
+    <color name="othermonthcolor">#646464</color>
+    <color name="whiteOfHalf">#909090</color>
+    <color name="white">#ffffff</color>
+    <color name="weekcolor">#1CA1B7</color>
+    <color name="translation">#00000000</color>
+    <color name="selectitemcolor">#66ccff</color>
+    <color name="juhuang">#ffcc00</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colorblack">#000000</color>
+    <color name="colortextpress">#53E3DC</color>
+    <color name="colorfengexian">#BFBFBF</color>
+    <color name="coloranniuwenzi">#47AFC0</color>
+
+    <!-- <color name="colorqhint">#909090</color> -->
+    <color name="colorqhint">#ffffff</color>
+    <color name="colordilogbg">#E2E2E2</color>
+    <color name="yellow">#FFF000</color>
+    <color name="gray">#A6A6A0</color>
+    <color name="orange">#ff9900</color>
+    <color name="deepcolor">#faaa5f</color>
+    <color name="shadowcolor">#333333</color>
+    <color name="naming">#ABABAB</color>
+    <color name="red">#FF0000</color>
+    <color name="background">#272727</color>
+    <color name="orange_yellow">#9b9ba0</color>
+
+    <drawable name="semi_black">#80000000</drawable>
+
+    <color name="remote_connect_text">#FFe78018</color>
+    <color name="remote_disconnect_text">#FF901821</color>
+
+</resources>

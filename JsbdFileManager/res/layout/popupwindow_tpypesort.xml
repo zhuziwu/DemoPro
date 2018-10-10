@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="225px"
+    android:layout_height="440px"
+    android:background="@drawable/sort_bg"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <RadioGroup
+        android:id="@+id/radiogroup_sorttype"
+     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160px"
+        android:divider="@drawable/divider_popsortradio"
+        android:showDividers="none" >
+
+        <RadioButton
+            android:id="@+id/radio_sortbyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableLeft="@drawable/icon_radiobutton_selector"
+            android:drawablePadding="25dp"
+            android:paddingLeft="20dp"
+            android:text="@string/tools_sortbyname"
+            android:textSize="18px" />
+
+        <RadioButton
+             android:id="@+id/radio_sortbytime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/icon_radiobutton_selector"
+            android:drawablePadding="25dp"
+            android:paddingLeft="20dp"
+            android:text="@string/tools_sortbytime"
+            android:textSize="18px" />
+
+        <RadioButton
+             android:id="@+id/radio_sortbysize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/icon_radiobutton_selector"
+            android:drawablePadding="25dp"
+            android:paddingLeft="20dp"
+            android:text="@string/tools_sortbysize"
+            android:textSize="18px" />
+
+        <RadioButton
+             android:id="@+id/radio_sortbyfiletype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/icon_radiobutton_selector"
+            android:drawablePadding="25dp"
+            android:paddingLeft="20dp"
+            android:text="@string/tools_sortbytype"
+            android:textSize="18px"  />
+    </RadioGroup>
+
+</LinearLayout>

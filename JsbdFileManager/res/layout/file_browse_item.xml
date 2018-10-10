@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.micode.fileexplorer.FileListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" 
+    >
+
+    <FrameLayout
+        android:id="@+id/file_checkbox_area"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:paddingLeft="10dip" >
+
+        <ImageView
+            android:id="@+id/file_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center" >
+        <ImageView
+            android:id="@+id/file_image"
+            android:layout_width="65px"
+            android:layout_height="65px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="centerInside" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/file_info_layout"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="5dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="10dip" >
+
+        <ImageView
+            android:id="@+id/gantanhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/bottom_gantanhao"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+</net.micode.fileexplorer.FileListItem>
